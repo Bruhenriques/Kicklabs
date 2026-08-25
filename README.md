@@ -1,6 +1,6 @@
-# 👟 Kickslabs
+#  Kickslabs
 
-## 👥 Integrantes
+##  Integrantes
 
 - Bruno Souza
 - Guilherme
@@ -9,7 +9,7 @@
 
 ---
 
-## 📋 Sobre o projeto
+##  Sobre o projeto
 
 O Kickslabs é uma aplicação Full Stack voltada para o gerenciamento de uma loja de tênis.
 
@@ -19,7 +19,7 @@ O projeto foi desenvolvido com o objetivo de aplicar conceitos de desenvolviment
 
 ---
 
-# 🚀 Tecnologias utilizadas
+#  Tecnologias utilizadas
 
 ## Backend
 
@@ -41,7 +41,7 @@ O projeto foi desenvolvido com o objetivo de aplicar conceitos de desenvolviment
 
 ---
 
-# 🏗️ Arquitetura do Backend
+#  Arquitetura do Backend
 
 O backend utiliza uma arquitetura organizada em camadas:
 
@@ -194,7 +194,7 @@ O preço unitário é armazenado no momento da compra para preservar o valor ori
 
 ---
 
-# 📦 Funcionalidades
+#  Funcionalidades
 
 ## Usuários
 
@@ -243,7 +243,7 @@ O preço unitário é armazenado no momento da compra para preservar o valor ori
 
 ---
 
-# 💼 Regras de negócio
+#  Regras de negócio
 
 O sistema possui regras específicas relacionadas ao funcionamento de uma loja de tênis.
 
@@ -294,7 +294,7 @@ Assim, alterações futuras no preço do produto não alteram pedidos antigos.
 
 ---
 
-# 🔐 Segurança
+#  Segurança
 
 As senhas dos usuários não são armazenadas em texto puro.
 
@@ -310,7 +310,7 @@ Além disso, a senha não é retornada nas respostas da API.
 
 ---
 
-# ⚠️ Tratamento de erros
+#  Tratamento de erros
 
 A aplicação possui um sistema centralizado de tratamento de erros.
 
@@ -346,12 +346,12 @@ Antes de executar o projeto, é necessário possuir instalado:
 
 ---
 
-## 📥 Instalação
+##  Instalação
 
 Clone o repositório:
 
 ```bash
-
+git clone https://github.com/Bruhenriques/Kicklabs.git
 ```
 
 Entre na pasta:
@@ -368,7 +368,7 @@ npm install
 
 ---
 
-# 🗄️ Configuração do PostgreSQL
+#  Configuração do PostgreSQL
 
 Crie um banco de dados chamado:
 
@@ -400,7 +400,7 @@ Utilize o `.env.example` como referência.
 
 ---
 
-# ▶️ Executando o Backend
+#  Executando o Backend
 
 Para iniciar o servidor em modo de desenvolvimento:
 
@@ -423,7 +423,7 @@ http://localhost:3000
 
 ---
 
-# 🔌 API REST
+#  API REST
 
 ## Users
 
@@ -626,7 +626,7 @@ PostgreSQL
 
 ---
 
-# 📌 Observações
+#  Observações
 
 O frontend deverá consumir exclusivamente os endpoints disponibilizados por esta API.
 
@@ -634,7 +634,7 @@ Os dados apresentados na interface deverão ser obtidos através das requisiçõ
 
 ---
 
-# 👨‍💻 Projeto acadêmico
+#  Projeto acadêmico
 
 Projeto desenvolvido como parte da Unidade Curricular de Desenvolvimento Full Stack.
 
