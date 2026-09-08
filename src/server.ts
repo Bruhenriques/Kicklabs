@@ -8,6 +8,7 @@ import userRoutes from "./routes/userRoutes";
 import categoryRoutes from "./routes/categoryRoutes";
 import productRoutes from "./routes/productRoutes";
 import orderRoutes from "./routes/orderRoutes";
+import authRoutes from "./routes/authRoutes";
 
 import { errorMiddleware } from "./middlewares/errorMiddleware";
 
@@ -20,6 +21,7 @@ app.use(userRoutes);
 app.use(categoryRoutes);
 app.use(productRoutes);
 app.use(orderRoutes);
+app.use(authRoutes);
 
 app.use(errorMiddleware);
 

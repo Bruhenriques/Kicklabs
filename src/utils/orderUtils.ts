@@ -11,4 +11,4 @@ export function calculateOrderTotal(
   return Number(
     subtotals.reduce((total, subtotal) => total + subtotal, 0).toFixed(2)
   );
-}
+} 
